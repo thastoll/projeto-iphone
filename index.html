@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="./script.js"></script>
+    <title>iPhone Apple (Brasil)</title>
+</head>
+<body>
+    <div class="caixaRoxa">
+        <img class="logo" src="images/logo.png" />
+        <ul>
+            <li> Mac </li>
+            <li> iPhone </li>
+            <li> iPad </li>
+            <li> Watch </li>
+            <li> AirPods </li>
+            <li> Acessórios </li>
+            <li> Suporte </li>
+        </ul>
+    </div>
+
+    <div class="caixaAzul">
+        <div>
+            <h1> iPhone 14 </h1>
+            <h2> Tão poderoso. Tão ao seu alcance. </h2>
+            <p> em dois tamanhos pereitos. agora com um toque 
+            de amarelo. </p>
+            <h3>A partir de R$633,25/mês ou R$7.999*</h3>
+            <button class="button">Comprar</button>
+
+            <p class="escolhaCor">Escolha sua cor:</p>
+
+            <div>
+                <button onclick="trocaCor('#81a5c4'); trocaImagem('./images/iphone-azul.png')" class="azul trocaCor"></button>
+                <button onclick="trocaCor('#f7da47'); trocaImagem('./images/iphone-amarelo.png')" class="amarelo trocaCor"></button>
+                <button onclick="trocaCor('#c1c1c1'); trocaImagem('./images/iphone-branco.png')" class="branco trocaCor"></button>
+                <button onclick="trocaCor('#272d33'); trocaImagem('./images/iphone-preto.png')" class="preto trocaCor"></button>
+                <button onclick="trocaCor('#b50012'); trocaImagem('./images/iphone-vemelho.png')" class="vermelho trocaCor"></button>
+                <button onclick="trocaCor('#ede7f1'); trocaImagem('./images/iphone-roxo.png')" class="roxo trocaCor"></button>
+            </div>
+        </div>
+
+        <div class="circulo"></div>
+
+        <img class="iphone" src="images/iphone-azul.png" alt="iphone-azul">
+    </div>
+</body>
+</html>
